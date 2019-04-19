@@ -14,10 +14,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <title>Faith - Church Template | Home</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="http://localhost/mycode/binhchanh/public/img/core-img/favicon.ico">
+    <link rel="icon" href="/public/img/core-img/favicon.ico">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="http://localhost/mycode/binhchanh/public/style.css">
+    <link rel="stylesheet" href="/public/style.css">
 
 </head>
 
