@@ -5,7 +5,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <section class="hero-area">
         <div class="hero-slides owl-carousel">
             <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img bg-overlay" style="background-image: url(img/bg-img/bg-2.jpg);">
+            <div class="single-hero-slide bg-img bg-overlay" style="background-image: url(/public/img/bg-img/bg-2.jpg);">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center justify-content-end">
                         <div class="col-12 col-lg-7">
@@ -32,7 +32,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
 
             <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img bg-overlay" style="background-image: url(img/bg-img/bg-1.jpg);">
+            <div class="single-hero-slide bg-img bg-overlay" style="background-image: url(/public/img/bg-img/bg-1.jpg);">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center justify-content-end">
                         <div class="col-12 col-lg-7">
@@ -59,7 +59,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
 
             <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img bg-overlay" style="background-image: url(img/bg-img/bg-3.jpg);">
+            <div class="single-hero-slide bg-img bg-overlay" style="background-image: url(/public/img/bg-img/bg-3.jpg);">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12 col-lg-7">

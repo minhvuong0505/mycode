@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 
    <!-- ##### Donate Area Start ##### -->
-   <section class="donate-our-charities section-padding-100 bg-img bg-overlay" style="background-image: url(img/bg-img/bg-3.jpg);">
+   <section class="donate-our-charities section-padding-100 bg-img bg-overlay" style="background-image: url(/public/img/bg-img/bg-3.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -21,7 +21,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                         <!-- Single Donate Slide Area -->
                         <div class="single-donate-slide">
-                            <img src="img/bg-img/donate1.jpg" alt="">
+                            <img src="/public/img/bg-img/donate1.jpg" alt="">
                             <!-- Donate Content -->
                             <div class="donate-content">
                                 <h4>Church Building</h4>
@@ -35,7 +35,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                         <!-- Single Donate Slide Area -->
                         <div class="single-donate-slide">
-                            <img src="img/bg-img/donate2.jpg" alt="">
+                            <img src="/public/img/bg-img/donate2.jpg" alt="">
                             <!-- Donate Content -->
                             <div class="donate-content">
                                 <h4>Teens Found</h4>
@@ -49,7 +49,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                         <!-- Single Donate Slide Area -->
                         <div class="single-donate-slide">
-                            <img src="img/bg-img/donate3.jpg" alt="">
+                            <img src="/public/img/bg-img/donate3.jpg" alt="">
                             <!-- Donate Content -->
                             <div class="donate-content">
                                 <h4>Child Found</h4>
@@ -63,7 +63,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                         <!-- Single Donate Slide Area -->
                         <div class="single-donate-slide">
-                            <img src="img/bg-img/donate4.jpg" alt="">
+                            <img src="/public/img/bg-img/donate4.jpg" alt="">
                             <!-- Donate Content -->
                             <div class="donate-content">
                                 <h4>Church Building</h4>
@@ -77,7 +77,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                         <!-- Single Donate Slide Area -->
                         <div class="single-donate-slide">
-                            <img src="img/bg-img/donate1.jpg" alt="">
+                            <img src="/public/img/bg-img/donate1.jpg" alt="">
                             <!-- Donate Content -->
                             <div class="donate-content">
                                 <h4>Church Building</h4>
@@ -91,7 +91,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                         <!-- Single Donate Slide Area -->
                         <div class="single-donate-slide">
-                            <img src="img/bg-img/donate2.jpg" alt="">
+                            <img src="/public/img/bg-img/donate2.jpg" alt="">
                             <!-- Donate Content -->
                             <div class="donate-content">
                                 <h4>Teens Found</h4>
@@ -105,7 +105,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                         <!-- Single Donate Slide Area -->
                         <div class="single-donate-slide">
-                            <img src="img/bg-img/donate3.jpg" alt="">
+                            <img src="/public/img/bg-img/donate3.jpg" alt="">
                             <!-- Donate Content -->
                             <div class="donate-content">
                                 <h4>Child Found</h4>
@@ -119,7 +119,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                         <!-- Single Donate Slide Area -->
                         <div class="single-donate-slide">
-                            <img src="img/bg-img/donate4.jpg" alt="">
+                            <img src="/public/img/bg-img/donate4.jpg" alt="">
                             <!-- Donate Content -->
                             <div class="donate-content">
                                 <h4>Church Building</h4>

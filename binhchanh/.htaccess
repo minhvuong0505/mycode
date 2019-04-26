@@ -1,5 +1,7 @@
-RewriteBase /binhchanh/
-RewriteCond $1 !^(index\.php|resources|robots\.txt)
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+RewriteRule ^(.*)$ index.php/$1 [L]
+</IfModule>

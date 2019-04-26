@@ -221,14 +221,15 @@ $this->load->view('header_parts/banner_rolling');
     </section>
     <!-- ##### Church Activities Area End ##### -->
 
-    <?php $this->load->view('donate'); ?>
+    <?php $this->load->view('donate_min'); ?>
+
     <!-- ##### Blog Area Start ##### -->
     <div class="faith-blog-area section-padding-100-0">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="section-heading text-center mx-auto">
-                        <img src="img/core-img/cross.png" alt="">
+                        <img src="/public/img/core-img/cross.png" alt="">
                         <h3>Latest News</h3>
                         <p>Donec quis metus ac arcu luctus accumsan. Nunc in justo tincidunt, sodales nunc id, finibus nibh.</p>
                     </div>
@@ -240,7 +241,7 @@ $this->load->view('header_parts/banner_rolling');
                 <div class="col-12 col-lg-4">
                     <div class="single-blog-area mb-100">
                         <div class="blog-thumbnail">
-                            <img src="img/blog-img/1.jpg" alt="">
+                            <img src="/public/img/blog-img/1.jpg" alt="">
                             <div class="post-date">
                                 <a href="#">03 April, 2018</a>
                             </div>
@@ -257,7 +258,7 @@ $this->load->view('header_parts/banner_rolling');
                 <div class="col-12 col-lg-4">
                     <div class="single-blog-area mb-100">
                         <div class="blog-thumbnail">
-                            <img src="img/blog-img/2.jpg" alt="">
+                            <img src="/public/img/blog-img/2.jpg" alt="">
                             <div class="post-date">
                                 <a href="#">03 April, 2018</a>
                             </div>
@@ -274,7 +275,7 @@ $this->load->view('header_parts/banner_rolling');
                 <div class="col-12 col-lg-4">
                     <div class="single-blog-area mb-100">
                         <div class="blog-thumbnail">
-                            <img src="img/blog-img/3.jpg" alt="">
+                            <img src="/public/img/blog-img/3.jpg" alt="">
                             <div class="post-date">
                                 <a href="#">03 April, 2018</a>
                             </div>
@@ -295,7 +296,3 @@ $this->load->view('header_parts/banner_rolling');
 
     <?php $this->load->view('header_parts/footer');?>
   
- 
-</body>
-
-</html>

@@ -49,7 +49,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <!-- ##### Preloader ##### -->
     <div id="preloader">
         <div class="circle">
-            <img src="img/core-img/church.png" alt="">
+            <img src="/public/img/core-img/church.png" alt="">
         </div>
     </div>
 
@@ -98,40 +98,40 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="/">Home</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="ministries.html">Ministries</a></li>
-                                            <li><a href="sermons.html">Sermons</a></li>
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="elements.html">Elements</a></li>
+                                            <li><a href="/">Home</a></li>
+                                            <li><a href="/ministries/index">Ministries</a></li>
+                                            <li><a href="/sermons/index">Sermons</a></li>
+                                            <li><a href="/blog/index">Blog</a></li>
+                                            <li><a href="/contact/index">Contact</a></li>
+                                            <li><a href="/elements/index">Elements</a></li>
                                             <li><a href="#">Dropdown</a>
                                                 <ul class="dropdown">
-                                                    <li><a href="index.html">Home</a></li>
-                                                    <li><a href="ministries.html">Ministries</a></li>
-                                                    <li><a href="sermons.html">Sermons</a></li>
-                                                    <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="contact.html">Contact</a></li>
-                                                    <li><a href="elements.html">Elements</a></li>
+                                                    <li><a href="/">Home</a></li>
+                                                    <li><a href="/ministries/index">Ministries</a></li>
+                                                    <li><a href="/sermons/index">Sermons</a></li>
+                                                    <li><a href="/blog/index">Blog</a></li>
+                                                    <li><a href="/contact/index">Contact</a></li>
+                                                    <li><a href="/elements/index">Elements</a></li>
                                                     <li><a href="#">Dropdown</a>
                                                         <ul class="dropdown">
-                                                            <li><a href="index.html">Home</a></li>
-                                                            <li><a href="ministries.html">Ministries</a></li>
-                                                            <li><a href="sermons.html">Sermons</a></li>
-                                                            <li><a href="blog.html">Blog</a></li>
-                                                            <li><a href="contact.html">Contact</a></li>
-                                                            <li><a href="elements.html">Elements</a></li>
+                                                            <li><a href="/">Home</a></li>
+                                                            <li><a href="/ministries/index">Ministries</a></li>
+                                                            <li><a href="/sermons/index">Sermons</a></li>
+                                                            <li><a href="/blog/index">Blog</a></li>
+                                                            <li><a href="/contact/index">Contact</a></li>
+                                                            <li><a href="/elements/index">Elements</a></li>
                                                         </ul>
                                                     </li>
                                                 </ul>
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a href="ministries.html">Ministries</a></li>
-                                    <li><a href="sermons.html">Sermons</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="/ministries/index">Ministries</a></li>
+                                    <li><a href="/sermons/index">Sermons</a></li>
+                                    <li><a href="/contact/index">Contact</a></li>
                                 </ul>
 
                                 <!-- Search Button -->

@@ -1,8 +1,10 @@
 <?php 
 defined('BASEPATH') OR exit('No direct script access allowed');
 $this->load->view('header_parts/header');
-?>    <!-- ##### Breadcumb Area Start ##### -->
-    <div class="breadcumb-area bg-img" style="background-image: url(img/bg-img/bg-8.jpg);">
+?>   
+
+ <!-- ##### Breadcumb Area Start ##### -->
+    <div class="breadcumb-area bg-img" style="background-image: url(/public/img/bg-img/bg-8.jpg);">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12 col-md-6">
@@ -24,109 +26,24 @@ $this->load->view('header_parts/header');
                 <div class="col-12 col-lg-8">
                     <div class="faith-blog-posts">
                         <div class="row">
-
-                            <!-- Single Blog Area -->
-                            <div class="col-12 col-lg-6">
+                        <?php foreach($blog_min as $k =>$v): ?>
+                            <!-- Single Blog Area --> 
+                            <div class="col-12 col-lg-4">
                                 <div class="single-blog-area mb-100">
                                     <div class="blog-thumbnail">
-                                        <img src="img/blog-img/1.jpg" alt="">
+                                        <img href="<?= $v['link'];?>" src="<?= $v['pic_content']; ?>" alt="">
                                         <div class="post-date">
-                                            <a href="#">03 April, 2018</a>
+                                            <a href="#"><?= $v['created_date']; ?></a>
                                         </div>
                                     </div>
                                     <div class="blog-content">
-                                        <a href="#" class="blog-title">New Community rules</a>
-                                        <p>Fusce nec ante vitae lacus aliquet vulp utate. Donec scelerisque accumsan molestie. Vestibulum ante ipsum primis.</p>
-                                        <a href="#" class="readmore-btn">Read More</a>
+                                        <a href="<?= $v['link'];?>" class="blog-title"><?= $v['title']; ?></a>
+                                        
+                                        
                                     </div>
                                 </div>
                             </div>
-
-                            <!-- Single Blog Area -->
-                            <div class="col-12 col-lg-6">
-                                <div class="single-blog-area mb-100">
-                                    <div class="blog-thumbnail">
-                                        <img src="img/blog-img/2.jpg" alt="">
-                                        <div class="post-date">
-                                            <a href="#">03 April, 2018</a>
-                                        </div>
-                                    </div>
-                                    <div class="blog-content">
-                                        <a href="#" class="blog-title">A perfect afternoon at church</a>
-                                        <p>Fusce nec ante vitae lacus aliquet vulp utate. Donec scelerisque accumsan molestie. Vestibulum ante ipsum primis.</p>
-                                        <a href="#" class="readmore-btn">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Single Blog Area -->
-                            <div class="col-12 col-lg-6">
-                                <div class="single-blog-area mb-100">
-                                    <div class="blog-thumbnail">
-                                        <img src="img/blog-img/3.jpg" alt="">
-                                        <div class="post-date">
-                                            <a href="#">03 April, 2018</a>
-                                        </div>
-                                    </div>
-                                    <div class="blog-content">
-                                        <a href="#" class="blog-title">Bible studies for kids</a>
-                                        <p>Fusce nec ante vitae lacus aliquet vulp utate. Donec scelerisque accumsan molestie. Vestibulum ante ipsum primis.</p>
-                                        <a href="#" class="readmore-btn">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Single Blog Area -->
-                            <div class="col-12 col-lg-6">
-                                <div class="single-blog-area mb-100">
-                                    <div class="blog-thumbnail">
-                                        <img src="img/blog-img/1.jpg" alt="">
-                                        <div class="post-date">
-                                            <a href="#">03 April, 2018</a>
-                                        </div>
-                                    </div>
-                                    <div class="blog-content">
-                                        <a href="#" class="blog-title">New Community rules</a>
-                                        <p>Fusce nec ante vitae lacus aliquet vulp utate. Donec scelerisque accumsan molestie. Vestibulum ante ipsum primis.</p>
-                                        <a href="#" class="readmore-btn">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Single Blog Area -->
-                            <div class="col-12 col-lg-6">
-                                <div class="single-blog-area mb-100">
-                                    <div class="blog-thumbnail">
-                                        <img src="img/blog-img/2.jpg" alt="">
-                                        <div class="post-date">
-                                            <a href="#">03 April, 2018</a>
-                                        </div>
-                                    </div>
-                                    <div class="blog-content">
-                                        <a href="#" class="blog-title">A perfect afternoon at church</a>
-                                        <p>Fusce nec ante vitae lacus aliquet vulp utate. Donec scelerisque accumsan molestie. Vestibulum ante ipsum primis.</p>
-                                        <a href="#" class="readmore-btn">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Single Blog Area -->
-                            <div class="col-12 col-lg-6">
-                                <div class="single-blog-area mb-100">
-                                    <div class="blog-thumbnail">
-                                        <img src="img/blog-img/3.jpg" alt="">
-                                        <div class="post-date">
-                                            <a href="#">03 April, 2018</a>
-                                        </div>
-                                    </div>
-                                    <div class="blog-content">
-                                        <a href="#" class="blog-title">Bible studies for kids</a>
-                                        <p>Fusce nec ante vitae lacus aliquet vulp utate. Donec scelerisque accumsan molestie. Vestibulum ante ipsum primis.</p>
-                                        <a href="#" class="readmore-btn">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-
+                            <?php endforeach;?>
                         </div>
                     </div>
 
@@ -177,7 +94,7 @@ $this->load->view('header_parts/header');
                             <!-- Single Latest Blog Post -->
                             <div class="single-latest-blog-post d-flex mb-30">
                                 <div class="latest-blog-post-thumb">
-                                    <img src="img/bg-img/ser1.jpg" alt="">
+                                    <img src="/public/img/bg-img/ser1.jpg" alt="">
                                 </div>
                                 <div class="latest-blog-post-content">
                                     <a href="#" class="post-title">Bible studies for kids</a>
@@ -188,7 +105,7 @@ $this->load->view('header_parts/header');
                             <!-- Single Latest Blog Post -->
                             <div class="single-latest-blog-post d-flex mb-30">
                                 <div class="latest-blog-post-thumb">
-                                    <img src="img/bg-img/ser2.jpg" alt="">
+                                    <img src="/public/img/bg-img/ser2.jpg" alt="">
                                 </div>
                                 <div class="latest-blog-post-content">
                                     <a href="#" class="post-title">How to teach our childrens</a>
@@ -199,7 +116,7 @@ $this->load->view('header_parts/header');
                             <!-- Single Latest Blog Post -->
                             <div class="single-latest-blog-post d-flex mb-30">
                                 <div class="latest-blog-post-thumb">
-                                    <img src="img/bg-img/ser3.jpg" alt="">
+                                    <img src="/public/img/bg-img/ser3.jpg" alt="">
                                 </div>
                                 <div class="latest-blog-post-content">
                                     <a href="#" class="post-title">Learn the 10 commands</a>
