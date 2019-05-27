@@ -1,5 +1,5 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
-class Manager extends CI_Model
+class Model_manager extends CI_Model
 {
   
     public function __construct()

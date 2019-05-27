@@ -4,22 +4,20 @@ class Manager extends Church_Controller
 
     public function __construct()
         {
-                parent::__construct();
-                $this->load->model('manager');
-                
+            parent::__construct();
+            $this->load->model('model_manager');
+            
         }
     
     public function index()
     {
-        if($this->input->post('id'))
-        if($this->manager->getAcc(array('username' => $this->input->post('id'), 'password' => $this->input->post('pass'))))
-        {
-            $_SESSION['login'] = 1;
+        var_dump($_SERVER);
+        if(!isset($_SESSION['id']))
             header('Location: '.$_SERVER[HTTP_ORIGIN].'/');
+        else{
+            $this->load->view('admin/manager');
         }
-        
-        
-        $this->load->view('admin/login');
+       
     }
 
     

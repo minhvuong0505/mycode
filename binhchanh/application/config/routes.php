@@ -55,4 +55,4 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['admincp'] = 'admin/login/index';
 
-$route['blog/(:any)'] = 'blog/view/$1';
+

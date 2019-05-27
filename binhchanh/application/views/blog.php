@@ -31,13 +31,13 @@ $this->load->view('header_parts/header');
                             <div class="col-12 col-lg-4">
                                 <div class="single-blog-area mb-100">
                                     <div class="blog-thumbnail">
-                                        <img href="<?= $v['link'];?>" src="<?= $v['pic_content']; ?>" alt="">
+                                        <img href="view/<?= $v['id'].'-'.$v['link'];?>" src="<?= $v['pic_content']; ?>" alt="">
                                         <div class="post-date">
                                             <a href="#"><?= $v['created_date']; ?></a>
                                         </div>
                                     </div>
                                     <div class="blog-content">
-                                        <a href="<?= $v['link'];?>" class="blog-title"><?= $v['title']; ?></a>
+                                        <a href="view/<?= $v['id'].'-'. $v['link'];?>" class="blog-title"><?= $v['title']; ?></a>
                                         
                                         
                                     </div>

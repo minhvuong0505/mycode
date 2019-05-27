@@ -1566,3 +1566,18 @@ textarea:focus {
     margin-bottom: 0; }
 
 /*# sourceMappingURL=style.css.map */
+
+
+/* mod by v */
+.title a {
+  color: #2454bb;
+  font-size: 35px;
+  padding: 0;
+}
+.blog-banner{
+  
+  width: 60%;
+  display: block;
+  margin: auto;
+
+}

@@ -7,11 +7,11 @@ class Blog_model extends CI_Model
                 $this->load->database();
                 $this->db->from('blog');
         }
-    function getBlog($link = null)
+    function getBlog($id = null)
     {
-        if(!empty($link)) 
+        if(!empty($id)) 
         {
-            $this->db->where('link',$link);
+            $this->db->where('id',$id);
             return $this->db->get()->row(1);
         }
         return $this->db->get()->result_array();
