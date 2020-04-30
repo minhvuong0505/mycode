@@ -17,7 +17,7 @@
     "classnames": "^2.2.6",
     "cross-env": "^3.2.4",
     "draft-js": "^0.10.0",
-    "jquery": "^3.1.1",
+    "jquery": "^3.5.0",
     "laravel-mix": "^2.1.14",
     "lodash": "^4.17.11",
     "moment": "^2.17.1",
